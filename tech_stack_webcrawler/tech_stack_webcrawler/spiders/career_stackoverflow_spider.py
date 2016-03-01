@@ -21,4 +21,5 @@ class CareerStackoverflowSpider(scrapy.Spider):
             for tech_tag in tech_stack.xpath("a[contains(@class, 'post-tag')]/text()"):
                 file.write(tech_tag.extract() + "\n")
 
+        file.write("----------\n")
         file.close()
