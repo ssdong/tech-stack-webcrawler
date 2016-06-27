@@ -1,3 +1,3 @@
 # tech-stack-webcrawler
 
-A web crawler for data mining about technology stacks of different tech companies.
+A web crawler for data mining about different technologies that companies use..
